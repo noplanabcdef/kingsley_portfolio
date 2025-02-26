@@ -1,3 +1,8 @@
+body {
+    font-family: "Ubuntu", serif;
+    font-style: normal;
+}
+
 h1 {
     color:blue;
     font-family: 'Ubuntu';
@@ -28,3 +33,20 @@ a {
     color: black;
 }
 
+.header-block {
+    display: inline-block; 
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 800px;
+}
