@@ -50,3 +50,83 @@ a {
     text-align: center;
     width: 800px;
 }
+
+.my-table { 
+    width: 800px;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border: none;
+    border-collapse: collapse;
+}
+
+.table-header { 
+    background-color: #ffffff;
+}
+
+.row-one { 
+    background-color: #ffffff;
+}
+
+.row-two { 
+    background-color: #ffffff;
+}
+
+.row-three { 
+    background-color: #ffffff;
+}
+
+.table-header-individual { 
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin: 15px 0px;
+    background-color: #FFABAB;
+    border: none;
+    border-collapse: collapse;
+    height: 25px;
+}
+
+.table-row-one-individual { 
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin: 15px 0px;
+    background-color: #FFD468;
+    border: none;
+    border-collapse: collapse;
+    height: 25px;
+}
+
+.table-row-two-individual { 
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin: 15px 0px;
+    background-color: #C289E3;
+    border: none;
+    border-collapse: collapse;
+    height: 25px;
+}
+
+.table-row-three-individual { 
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin: 15px 0px;
+    background-color: #7DD883;
+    border: none;
+    border-collapse: collapse;
+    height: 25px;
+}
+
+.row-image {
+    height: 15px;
+    width: 15px;
+}
