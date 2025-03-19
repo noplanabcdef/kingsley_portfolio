@@ -1,3 +1,28 @@
+@media (max-width: 500px) {
+    body {
+        background-color: #000000;
+    }
+    .nav-button {
+        display: none;
+    }
+}
+@media (min-width: 501px) and  (max-width: 840px) {
+    body {
+        background-color: rgb(255, 255, 0);
+    }
+    .nav-button {
+        display: none;
+    }
+}
+@media (min-width: 841px) {
+    body {
+        background-color: #fff5f0;
+    }
+    .cool-hamburger-button {
+        display: none;
+    }
+}
+
 body {
     font-family: "Ubuntu", serif;
     font-style: normal;
@@ -39,7 +64,7 @@ body {
 }
 
 .nav-button:hover {
-    background-color: #ff0000;
+    background-color: #000000;
 }
 
 a {
@@ -86,69 +111,95 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.table-header:hover {
+    background-color: #000000;
+}
+
 .table-row {
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 30px;
-    background-color: #FFABAB;
     border-radius: 8px;
     margin: 20px 0px 0px 0px;
     font-weight: 600;
     font-style: normal;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    vertical-align: middle;
+    align-items: center;
 }
 
-.table-header-individual { 
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    margin: 15px 0px;
+.table-row-1 {
     background-color: #FFABAB;
-    border: none;
-    border-collapse: collapse;
-    height: 25px;
 }
 
-.table-row-one-individual { 
+.table-row-1:hover {
+    background-color: #000000;
+}
+
+.table-row-2 {
+    background-color: #0d00c2;
+}
+
+.table-row-2:hover {
+    background-color: #000000;
+}
+
+.table-row-3 {
+    background-color: #00f2ff;
+}
+
+.table-row-3:hover {
+    background-color: #000000;
+}
+
+.project-button {
     padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
     padding-bottom: 10px;
-    margin: 15px 0px;
-    background-color: #FFD468;
-    border: none;
-    border-collapse: collapse;
-    height: 25px;
+    background-color: #ffffff;
+    border-radius: 200px;
 }
 
-.table-row-two-individual { 
+.project-button:hover {
+    background-color: #ff0000;
+    color: #ff0000;
+}
+
+.table-row-image {
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 200px;
+}
+
+.item-one-container {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.center-text {
+    vertical-align: middle;
+    align-items: center;
+}
+
+.cool-hamburger-button {
+    background-color: #ff0000;
     padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 10px;
-    margin: 15px 0px;
-    background-color: #C289E3;
-    border: none;
-    border-collapse: collapse;
-    height: 25px;
+    border-radius: 200px;
 }
 
-.table-row-three-individual { 
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    margin: 15px 0px;
-    background-color: #7DD883;
-    border: none;
-    border-collapse: collapse;
-    height: 25px;
+.cool-hamburger-button:hover {
+    background-color: #000000;
 }
 
-.row-image {
-    height: 15px;
-    width: 15px;
+.cool-hamburger-icon {
+    height: 20px;
+    width: 20px;
 }
