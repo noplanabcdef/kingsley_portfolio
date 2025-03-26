@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Kingsley's Portfolio</title> 
+    <link rel="stylesheet" href="styles/style.css"><!-- Cascading style sheet. Style.css is in the same folder. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-bar-container">
+        <div class="nav-logo">
+            <a href="">Kingsley's Portfolio</a>
+        </div>
+        <div class="nav-bar">
+            <div class="nav-button"><a href="">About me</a></div>
+            <div class="nav-button"><a href="coding_experience.html">Coding experience</a></div>
+            <div class="nav-button"><a href="https://github.com/noplanabcdef">Github</a></div>
+            <div class="nav-button"><a href="contact_me.html">Contact Me</a></div>
+            <div class="cool-hamburger-button">
+                <img src="resources/hamburger.png" class="cool-hamburger-icon">
+            </div>
+        </div>
+    </div>
+    <div class="form-background">
+        <div class="form-container">
+            <div class="form-header">
+                Contact Me
+            </div>
+            <form>
+                <div class="form-section">
+                    <div class="form-label">
+                        <label for="name">
+                            Name
+                        </label>
+                    </div>
+                    <div>
+                        <input class="form-textfield" type="text" id="name" name="name" required>
+                    </div>
+                </div>
+                <div class="form-section">
+                    <div class="form-label">
+                        <label for="email">
+                            Email
+                        </label>
+                    </div>
+                    <div>
+                        <input class="form-textfield" type="email" id="email" name="email" required>
+                    </div>
+                </div> 
+                <div class="form-section">
+                    <div class="form-label">
+                        <label for="age">
+                            Age
+                        </label>
+                    </div>
+                    <div>
+                        <input class="form-textfield" type="number" id="age" name="age">
+                    </div>
+                </div>
+                <div class="form-section">
+                    <div class="form-label">
+                        <label for="birthday">
+                            Birthday
+                        </label>
+                    </div>
+                    <div>
+                        <input class="form-textfield" type="date" id="birthday" name="birthday">
+                    </div>
+                </div>
+                <div class="form-section">
+                    <div class="form-label">
+                        <label for="gender">
+                            Gender
+                        </label>
+                    </div>
+                    <div>
+                        <input class="form-radio" type="radio" id="male" name="gender" value="male">
+                        <label class="form-radio-label" for="male">Male</label>
+                        <input class="form-radio" type="radio" id="female" name="gender" value="female">
+                        <label class="form-radio-label" for="female">Female</label>
+                    </div>
+                </div>
+                <div class="form-section">
+                    <div class="form-label">
+                        <label for="services">
+                            Which services are you interested in?
+                        </label>
+                    </div>
+                    <div>
+                        <div>
+                            <input class="form-checkbox" type="checkbox" id="scratch" name="services" value="scratch">
+                            <label class="form-checkbox-label" for="scratch">
+                                Scratch
+                            </label>
+                        </div>
+                        <div>
+                            <input class="form-checkbox" type="checkbox" id="web" name="services" value="web">
+                            <label class="form-checkbox-label" for="web">
+                                Website Building
+                            </label>
+                        </div>
+                        <div>
+                            <input class="form-checkbox" type="checkbox" id="python" name="services" value="python">
+                            <label class="form-checkbox-label" for="python">
+                                Python
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
