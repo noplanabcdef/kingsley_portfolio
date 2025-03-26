@@ -1,17 +1,47 @@
 @media (max-width: 500px) {
     body {
-        background-color: #000000;
+        background-color: #d07f7f;
     }
     .nav-button {
         display: none;
     }
+    .header-banner {
+        width: calc(95%);
+    }
+    .table-container {
+        width: calc(95%);
+    }
+    .banner-text  {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 40px;
+    }
 }
-@media (min-width: 501px) and  (max-width: 840px) {
+@media (min-width: 501px) and (max-width: 840px) {
     body {
         background-color: rgb(255, 255, 0);
     }
     .nav-button {
         display: none;
+    }
+    .header-banner {
+        width: calc(95%)
+    }
+    .table-container {
+        width: calc(95%);
+    }
+    .banner-text  {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 40px;
     }
 }
 @media (min-width: 841px) {
@@ -21,6 +51,14 @@
     .cool-hamburger-button {
         display: none;
     }
+    .header-banner {
+        width: 800px;
+    }
+    .table-container { 
+        margin: auto;
+        width: 800px;
+    }
+    
 }
 
 body {
@@ -79,7 +117,6 @@ a {
     margin: auto;
     display: block;
     text-align: center;
-    width: 800px;
 }
 
 .banner-text {
@@ -93,7 +130,6 @@ a {
 }
 
 .table-container { 
-    width: 800px;
     margin: auto;
 }
 
