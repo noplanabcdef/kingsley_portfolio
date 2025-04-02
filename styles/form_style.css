@@ -1,9 +1,39 @@
 .form-background {
     background-color: #ffdb7e;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 10px;
 }
 
 .form-container {
     margin: auto;
     width: 80%;
+}
+
+.form-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+.form-section {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.form-label {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form-textfield {
+    width: 100%;
 }
