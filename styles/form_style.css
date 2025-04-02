@@ -2,3 +2,8 @@
     background-color: #ffdb7e;
     margin: auto;
 }
+
+.form-container {
+    margin: auto;
+    width: 80%;
+}
