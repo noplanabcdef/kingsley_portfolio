@@ -1,6 +1,6 @@
 @media (max-width: 500px) {
     body {
-        background-color: #d07f7f;
+        background-color: #ebcbcb;
     }
     .nav-button {
         display: none;
@@ -23,7 +23,7 @@
 }
 @media (min-width: 501px) and (max-width: 840px) {
     body {
-        background-color: rgb(255, 255, 0);
+        background-color: rgb(249, 219, 219);
     }
     .nav-button {
         display: none;
@@ -102,7 +102,7 @@ body {
 }
 
 .nav-button:hover {
-    background-color: #000000;
+    background-color: #5892de;
 }
 
 a {
@@ -131,6 +131,7 @@ a {
 
 .table-container { 
     margin: auto;
+    font-size: 15px;
 }
 
 .table-header { 
@@ -144,11 +145,18 @@ a {
     font-weight: 600;
     font-style: normal;
     display: grid;
+}
+
+.table-header-four-col { 
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.table-header-five-col { 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 .table-header:hover {
-    background-color: #000000;
+    background-color: #5892de;
 }
 
 .table-row {
@@ -161,9 +169,15 @@ a {
     font-weight: 600;
     font-style: normal;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     vertical-align: middle;
     align-items: center;
+}
+.table-row-four-col { 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.table-row-five-col { 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .table-row-1 {
@@ -171,23 +185,23 @@ a {
 }
 
 .table-row-1:hover {
-    background-color: #000000;
+    background-color: #ff6e6e;
 }
 
 .table-row-2 {
-    background-color: #0d00c2;
+    background-color: #adea79;
 }
 
 .table-row-2:hover {
-    background-color: #000000;
+    background-color: #69e100;
 }
 
 .table-row-3 {
-    background-color: #00f2ff;
+    background-color: #fde984;
 }
 
 .table-row-3:hover {
-    background-color: #000000;
+    background-color: #ffdb27;
 }
 
 .project-button {
@@ -200,8 +214,8 @@ a {
 }
 
 .project-button:hover {
-    background-color: #ff0000;
-    color: #ff0000;
+    background-color: #abff7a;
+    color: #000000;
 }
 
 .table-row-image {
@@ -223,7 +237,7 @@ a {
 }
 
 .cool-hamburger-button {
-    background-color: #ff0000;
+    background-color: #92BBF0;
     padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
@@ -232,10 +246,11 @@ a {
 }
 
 .cool-hamburger-button:hover {
-    background-color: #000000;
+    background-color: #5892de;
 }
 
 .cool-hamburger-icon {
     height: 20px;
     width: 20px;
 }
+
