@@ -147,6 +147,11 @@ a {
     display: grid;
 }
 
+.table-header-three-col { 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 .table-header-four-col { 
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -172,6 +177,11 @@ a {
     vertical-align: middle;
     align-items: center;
 }
+
+.table-row-three-col { 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .table-row-four-col { 
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
